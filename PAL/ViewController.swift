@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var appName: UILabel!
+    @IBOutlet weak var appDesc: UILabel!
+    @IBOutlet weak var login: UIButton!
+    @IBOutlet weak var signUp: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

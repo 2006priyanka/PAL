@@ -47,6 +47,7 @@
 		2D0AF0E91F03F38400CF3ABC /* PALUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PALUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D0AF0ED1F03F38400CF3ABC /* PALUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PALUITests.swift; sourceTree = "<group>"; };
 		2D0AF0EF1F03F38400CF3ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CDA97401F04341D0039A47D /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/SignInController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 			children = (
 				2D0AF0CD1F03F38400CF3ABC /* AppDelegate.swift */,
 				2D0AF0CF1F03F38400CF3ABC /* ViewController.swift */,
+				5CDA973F1F04341D0039A47D /* SignInController.swift */,
 				2D0AF0D11F03F38400CF3ABC /* Main.storyboard */,
 				2D0AF0D41F03F38400CF3ABC /* Assets.xcassets */,
 				2D0AF0D61F03F38400CF3ABC /* LaunchScreen.storyboard */,
@@ -312,6 +314,14 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		5CDA973F1F04341D0039A47D /* SignInController.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CDA97401F04341D0039A47D /* Base */,
+			);
+			name = SignInController.swift;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -505,6 +515,7 @@
 				2D0AF0F41F03F38400CF3ABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D0AF0F51F03F38400CF3ABC /* Build configuration list for PBXNativeTarget "PALTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +524,7 @@
 				2D0AF0F71F03F38400CF3ABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D0AF0F81F03F38400CF3ABC /* Build configuration list for PBXNativeTarget "PALUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +533,7 @@
 				2D0AF0FA1F03F38400CF3ABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

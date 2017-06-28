@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -54,15 +54,21 @@
                         </subviews>
                         <color key="backgroundColor" red="0.3866118401114948" green="0.8283697739131044" blue="0.93221745466321249" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="appDesc" destination="Pk6-gS-UWZ" id="RHl-5N-FpO"/>
+                        <outlet property="appName" destination="aLL-e9-jU9" id="KVZ-ib-E0l"/>
+                        <outlet property="login" destination="x02-8u-fIl" id="dBY-Ij-ccn"/>
+                        <outlet property="signUp" destination="Iiz-BG-b7K" id="YyE-QT-4J6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-289" y="96"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign In Controller-->
         <scene sceneID="p8J-JU-BWJ">
             <objects>
-                <viewController id="hxQ-qq-EXc" sceneMemberID="viewController">
+                <viewController id="hxQ-qq-EXc" customClass="SignInController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="E2d-tl-mqz"/>
                         <viewControllerLayoutGuide type="bottom" id="t7N-XR-iwi"/>
@@ -153,7 +159,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8f4-ym-3pe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="496.80000000000001" y="134.48275862068968"/>
+            <point key="canvasLocation" x="496.80000000000001" y="95.802098950524751"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="zlc-hR-XNY">
@@ -229,10 +235,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RdU-Tb-1lA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1176.8" y="-88.605697151424295"/>
+            <point key="canvasLocation" x="497" y="-576"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1v4-US-w4x"/>
+        <segue reference="vYK-hz-TKJ"/>
     </inferredMetricsTieBreakers>
 </document>
