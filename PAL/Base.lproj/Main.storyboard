@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="IEr-dm-rvv">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -40,7 +40,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Log In"/>
                                 <connections>
-                                    <segue destination="Bd5-cj-b0Z" kind="show" id="h5K-U6-gwF"/>
+                                    <segue destination="Bd5-cj-b0Z" kind="show" id="V6a-Eu-gqf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iiz-BG-b7K">
@@ -48,12 +48,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign Up"/>
                                 <connections>
-                                    <segue destination="hxQ-qq-EXc" kind="show" id="eva-Sp-cKS"/>
+                                    <segue destination="hxQ-qq-EXc" kind="show" id="XLf-lw-Gf2"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.3866118401114948" green="0.8283697739131044" blue="0.93221745466321249" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="yot-kl-jpr"/>
                     <connections>
                         <outlet property="appDesc" destination="Pk6-gS-UWZ" id="RHl-5N-FpO"/>
                         <outlet property="appName" destination="aLL-e9-jU9" id="KVZ-ib-E0l"/>
@@ -63,12 +64,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-289" y="96"/>
+            <point key="canvasLocation" x="436" y="96"/>
         </scene>
-        <!--Sign In Controller-->
+        <!--Signup View Controller-->
         <scene sceneID="p8J-JU-BWJ">
             <objects>
-                <viewController id="hxQ-qq-EXc" customClass="SignInController" sceneMemberID="viewController">
+                <viewController id="hxQ-qq-EXc" customClass="SignupViewController" customModule="PAL" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="E2d-tl-mqz"/>
                         <viewControllerLayoutGuide type="bottom" id="t7N-XR-iwi"/>
@@ -139,14 +140,6 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Counselor"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRC-c7-XY3">
-                                <rect key="frame" x="22" y="20" width="65" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="vYK-hz-TKJ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Py-K9-v1W">
                                 <rect key="frame" x="32" y="438" width="70" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -159,7 +152,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8f4-ym-3pe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="496.80000000000001" y="95.802098950524751"/>
+            <point key="canvasLocation" x="1222" y="96"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="zlc-hR-XNY">
@@ -214,14 +207,6 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <state key="normal" title="Submit"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZDV-Eu-DuU">
-                                <rect key="frame" x="22" y="28" width="34" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="1v4-US-w4x"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Id" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XIf-K4-j2i">
                                 <rect key="frame" x="38" y="278" width="53" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -235,10 +220,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RdU-Tb-1lA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="497" y="-576"/>
+            <point key="canvasLocation" x="1222" y="-584"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="JFe-Zf-FQb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IEr-dm-rvv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="qUz-0j-EmL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="mFw-58-XDn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MMN-uL-IyE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-338.39999999999998" y="95.802098950524751"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="vYK-hz-TKJ"/>
-    </inferredMetricsTieBreakers>
 </document>

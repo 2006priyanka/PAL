@@ -14,6 +14,7 @@
 		2D0AF0D81F03F38400CF3ABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0AF0D61F03F38400CF3ABC /* LaunchScreen.storyboard */; };
 		2D0AF0E31F03F38400CF3ABC /* PALTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0AF0E21F03F38400CF3ABC /* PALTests.swift */; };
 		2D0AF0EE1F03F38400CF3ABC /* PALUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0AF0ED1F03F38400CF3ABC /* PALUITests.swift */; };
+		5CFAF9981F05409E00E8E6FD /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFAF9971F05409E00E8E6FD /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +48,7 @@
 		2D0AF0E91F03F38400CF3ABC /* PALUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PALUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D0AF0ED1F03F38400CF3ABC /* PALUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PALUITests.swift; sourceTree = "<group>"; };
 		2D0AF0EF1F03F38400CF3ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CDA97401F04341D0039A47D /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/SignInController.swift; sourceTree = "<group>"; };
+		5CFAF9971F05409E00E8E6FD /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +99,9 @@
 		2D0AF0CC1F03F38400CF3ABC /* PAL */ = {
 			isa = PBXGroup;
 			children = (
+				5CFAF9991F05412D00E8E6FD /* Signup */,
 				2D0AF0CD1F03F38400CF3ABC /* AppDelegate.swift */,
 				2D0AF0CF1F03F38400CF3ABC /* ViewController.swift */,
-				5CDA973F1F04341D0039A47D /* SignInController.swift */,
 				2D0AF0D11F03F38400CF3ABC /* Main.storyboard */,
 				2D0AF0D41F03F38400CF3ABC /* Assets.xcassets */,
 				2D0AF0D61F03F38400CF3ABC /* LaunchScreen.storyboard */,
@@ -125,6 +126,14 @@
 				2D0AF0EF1F03F38400CF3ABC /* Info.plist */,
 			);
 			path = PALUITests;
+			sourceTree = "<group>";
+		};
+		5CFAF9991F05412D00E8E6FD /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				5CFAF9971F05409E00E8E6FD /* SignupViewController.swift */,
+			);
+			name = Signup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CFAF9981F05409E00E8E6FD /* SignupViewController.swift in Sources */,
 				2D0AF0D01F03F38400CF3ABC /* ViewController.swift in Sources */,
 				2D0AF0CE1F03F38400CF3ABC /* AppDelegate.swift in Sources */,
 			);
@@ -312,14 +322,6 @@
 				2D0AF0D71F03F38400CF3ABC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		5CDA973F1F04341D0039A47D /* SignInController.swift */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5CDA97401F04341D0039A47D /* Base */,
-			);
-			name = SignInController.swift;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
