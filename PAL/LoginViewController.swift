@@ -1,5 +1,5 @@
 //
-//  SignupViewController.swift
+//  LoginViewController.swift
 //  PAL
 //
 //  Created by Parshotan Seenanan on 6/29/17.
@@ -8,23 +8,17 @@
 
 import UIKit
 
-class SignupViewController: UIViewController {
+class LoginViewController: UIViewController {
 
-   
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var emailLabel: UILabel!
+    @IBOutlet weak var appName: UILabel!
+    @IBOutlet weak var appDesc: UILabel!
+    @IBOutlet weak var idLabel: UILabel!
     @IBOutlet weak var passLabel: UILabel!
-    @IBOutlet weak var codeLabel: UILabel!
     
-    
-    @IBOutlet weak var nameInput: UITextField!
-    @IBOutlet weak var emailInput: UITextField!
+    @IBOutlet weak var idInput: UITextField!
     @IBOutlet weak var passInput: UITextField!
-    @IBOutlet weak var codeInput: UITextField!
-    
-    
-    @IBOutlet weak var studentButt: UIButton!
-    @IBOutlet weak var counselorButt: UIButton!
+
+    @IBOutlet weak var submitButt: UIButton!
     
     
     override func viewDidLoad() {

@@ -149,15 +149,27 @@
                         </subviews>
                         <color key="backgroundColor" red="0.70613951316942858" green="0.67085685676989559" blue="0.93221745466321249" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="codeInput" destination="MLf-6x-w6w" id="nK0-Lh-qaV"/>
+                        <outlet property="codeLabel" destination="BwH-L7-kTi" id="bPS-hN-UJi"/>
+                        <outlet property="counselorButt" destination="ktD-qW-FEm" id="zwQ-T4-ggq"/>
+                        <outlet property="emailInput" destination="Js4-W5-VIm" id="cvD-jp-ZJ7"/>
+                        <outlet property="emailLabel" destination="mA6-Cm-gai" id="QoF-EH-mAV"/>
+                        <outlet property="nameInput" destination="Q1P-Jl-eop" id="YHQ-Ne-RQi"/>
+                        <outlet property="nameLabel" destination="fgm-By-fFK" id="f5b-nU-R4g"/>
+                        <outlet property="passInput" destination="oFQ-Ik-gFd" id="dUI-3d-LFs"/>
+                        <outlet property="passLabel" destination="JeL-NJ-s3T" id="IEp-V0-u8K"/>
+                        <outlet property="studentButt" destination="6Py-K9-v1W" id="mLm-uD-Xqf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8f4-ym-3pe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1222" y="96"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="zlc-hR-XNY">
             <objects>
-                <viewController id="Bd5-cj-b0Z" sceneMemberID="viewController">
+                <viewController id="Bd5-cj-b0Z" customClass="LoginViewController" customModule="PAL" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ELD-x6-p5a"/>
                         <viewControllerLayoutGuide type="bottom" id="fei-3G-y89"/>
@@ -217,6 +229,15 @@
                         </subviews>
                         <color key="backgroundColor" red="0.93221745466321249" green="0.52017014445405518" blue="0.87093070914822335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="appDesc" destination="xY3-9q-fNW" id="Fgb-Yg-sSl"/>
+                        <outlet property="appName" destination="c6Q-pp-bMy" id="ioM-Yg-dim"/>
+                        <outlet property="idInput" destination="ZBL-D3-Ze5" id="2FK-gw-SVg"/>
+                        <outlet property="idLabel" destination="XIf-K4-j2i" id="d4N-2O-LCL"/>
+                        <outlet property="passInput" destination="SOP-JH-l0R" id="M94-8N-PJT"/>
+                        <outlet property="passLabel" destination="nQy-qn-FCq" id="XkF-3O-knq"/>
+                        <outlet property="submitButt" destination="gg7-sQ-Mbh" id="vKg-fc-cXE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RdU-Tb-1lA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

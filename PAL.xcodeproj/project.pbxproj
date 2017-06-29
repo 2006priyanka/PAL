@@ -15,6 +15,7 @@
 		2D0AF0E31F03F38400CF3ABC /* PALTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0AF0E21F03F38400CF3ABC /* PALTests.swift */; };
 		2D0AF0EE1F03F38400CF3ABC /* PALUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0AF0ED1F03F38400CF3ABC /* PALUITests.swift */; };
 		5CFAF9981F05409E00E8E6FD /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFAF9971F05409E00E8E6FD /* SignupViewController.swift */; };
+		5CFAF99B1F05471D00E8E6FD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFAF99A1F05471D00E8E6FD /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2D0AF0ED1F03F38400CF3ABC /* PALUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PALUITests.swift; sourceTree = "<group>"; };
 		2D0AF0EF1F03F38400CF3ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CFAF9971F05409E00E8E6FD /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		5CFAF99A1F05471D00E8E6FD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				2D0AF0D41F03F38400CF3ABC /* Assets.xcassets */,
 				2D0AF0D61F03F38400CF3ABC /* LaunchScreen.storyboard */,
 				2D0AF0D91F03F38400CF3ABC /* Info.plist */,
+				5CFAF99A1F05471D00E8E6FD /* LoginViewController.swift */,
 			);
 			path = PAL;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CFAF99B1F05471D00E8E6FD /* LoginViewController.swift in Sources */,
 				5CFAF9981F05409E00E8E6FD /* SignupViewController.swift in Sources */,
 				2D0AF0D01F03F38400CF3ABC /* ViewController.swift in Sources */,
 				2D0AF0CE1F03F38400CF3ABC /* AppDelegate.swift in Sources */,
