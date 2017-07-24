@@ -8,8 +8,9 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, UITextFieldDelegate{
 
+    //MARK: Variables
     @IBOutlet weak var appName: UILabel!
     @IBOutlet weak var appDesc: UILabel!
     @IBOutlet weak var idLabel: UILabel!
@@ -17,26 +18,40 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var idInput: UITextField!
     @IBOutlet weak var passInput: UITextField!
-
-    @IBOutlet weak var submitButt: UIButton!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        //sign up
+        idInput.delegate = self
+        passInput.delegate = self
         
-        Service().login(email: "" , password: "mackensie", callback: {(result) in
-            
-            if result["status"].intValue == 1 {
-                print("We found your user")
-            } else {
-                print("Username and password was wrong.")
+    }
+    
+    //MARK: UITextViewDelegate
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        //Hide the keyboard
+        idInput.resignFirstResponder()
+        passInput.resignFirstResponder()
+        
+        return true
+    }
+    
+    @IBAction func submitButt(_ sender: UIButton) {
+        if idInput.text == "" || passInput.text == "" {
+            print("Blank text field")
+        } else {
+           /* Service().login(email: idInput.text, password: passInput.text, callback: {(result) in
+                
+                if result["status"].intValue == 1 {
+                    print("We found your user")
+                } else {
+                    print("Username and/or password was wrong.")
+                }
             }
+            ) */
         }
-        )
     }
     
     override func didReceiveMemoryWarning() {

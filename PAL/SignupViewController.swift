@@ -24,10 +24,6 @@ class SignupViewController: UIViewController, UITextFieldDelegate{
     @IBOutlet weak var codeInput: UITextField!
     
     
-    
-    @IBOutlet weak var counselorButt: UIButton!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -54,7 +50,7 @@ class SignupViewController: UIViewController, UITextFieldDelegate{
         return true
     }
     
-    
+    //MARK: Button Actions
     @IBAction func studentButt(_ sender: UIButton) {
         if nameInput.text == "" || emailInput.text == "" || passInput.text == "" || codeInput.text == ""  {
             print("Blank text fields")
@@ -66,6 +62,19 @@ class SignupViewController: UIViewController, UITextFieldDelegate{
             })
         }
     }
+    
+    @IBAction func counselorButt(_ sender: UIButton) {
+        if nameInput.text == "" || emailInput.text == "" || passInput.text == "" || codeInput.text == ""  {
+            print("Blank text fields")
+        } else {
+            let user: [String: AnyObject] = ["name": nameInput.text as AnyObject, "email": emailInput.text as AnyObject, "password": passInput.text as AnyObject, "school_code": codeInput.text as AnyObject, "role": 2 as AnyObject]
+            
+            Service().signup(params: user, callback: { (result) in
+                print(result)
+            })
+        }
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

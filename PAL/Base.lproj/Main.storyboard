@@ -139,6 +139,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Counselor"/>
+                                <connections>
+                                    <action selector="counselorButt:" destination="hxQ-qq-EXc" eventType="touchUpInside" id="lc6-e3-FxM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Py-K9-v1W">
                                 <rect key="frame" x="25" y="470" width="70" height="30"/>
@@ -155,7 +158,6 @@
                     <connections>
                         <outlet property="codeInput" destination="MLf-6x-w6w" id="nK0-Lh-qaV"/>
                         <outlet property="codeLabel" destination="BwH-L7-kTi" id="bPS-hN-UJi"/>
-                        <outlet property="counselorButt" destination="ktD-qW-FEm" id="zwQ-T4-ggq"/>
                         <outlet property="emailInput" destination="Js4-W5-VIm" id="cvD-jp-ZJ7"/>
                         <outlet property="emailLabel" destination="mA6-Cm-gai" id="QoF-EH-mAV"/>
                         <outlet property="nameInput" destination="Q1P-Jl-eop" id="YHQ-Ne-RQi"/>
@@ -220,6 +222,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="submitButt:" destination="Bd5-cj-b0Z" eventType="touchUpInside" id="zcl-n0-cJl"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Id" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XIf-K4-j2i">
                                 <rect key="frame" x="38" y="278" width="53" height="21"/>
@@ -238,7 +243,6 @@
                         <outlet property="idLabel" destination="XIf-K4-j2i" id="d4N-2O-LCL"/>
                         <outlet property="passInput" destination="SOP-JH-l0R" id="M94-8N-PJT"/>
                         <outlet property="passLabel" destination="nQy-qn-FCq" id="XkF-3O-knq"/>
-                        <outlet property="submitButt" destination="gg7-sQ-Mbh" id="vKg-fc-cXE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RdU-Tb-1lA" userLabel="First Responder" sceneMemberID="firstResponder"/>
