@@ -42,7 +42,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate{
         if idInput.text == "" || passInput.text == "" {
             print("Blank text field")
         } else {
-           /* Service().login(email: idInput.text, password: passInput.text, callback: {(result) in
+           Service().login(email: idInput.text!, password: passInput.text!, callback: {(result) in
                 
                 if result["status"].intValue == 1 {
                     print("We found your user")
@@ -50,7 +50,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate{
                     print("Username and/or password was wrong.")
                 }
             }
-            ) */
+            )
         }
     }
     
