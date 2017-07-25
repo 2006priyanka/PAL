@@ -53,19 +53,27 @@ class SignupViewController: UIViewController, UITextFieldDelegate{
     //MARK: Button Actions
     @IBAction func studentButt(_ sender: UIButton) {
         if nameInput.text == "" || emailInput.text == "" || passInput.text == "" || codeInput.text == ""  {
-            print("Blank text fields")
+            SweetAlert().showAlert("Error", subTitle: "Blank Text Fields", style: .error)
         } else {
             let user: [String: AnyObject] = ["name": nameInput.text as AnyObject, "email": emailInput.text as AnyObject, "password": passInput.text as AnyObject, "school_code": codeInput.text as AnyObject, "role": 1 as AnyObject]
             
             Service().signup(params: user, callback: { (result) in
                 print(result)
+                
+                
+                
+                
+                //SweetAlert().showAlert("This is the title", subTitle: "sasdas", style: .warning)
+                
+                
+                
             })
         }
     }
     
     @IBAction func counselorButt(_ sender: UIButton) {
         if nameInput.text == "" || emailInput.text == "" || passInput.text == "" || codeInput.text == ""  {
-            print("Blank text fields")
+             SweetAlert().showAlert("Error", subTitle: "Blank Text Fields", style: .error)
         } else {
             let user: [String: AnyObject] = ["name": nameInput.text as AnyObject, "email": emailInput.text as AnyObject, "password": passInput.text as AnyObject, "school_code": codeInput.text as AnyObject, "role": 2 as AnyObject]
             

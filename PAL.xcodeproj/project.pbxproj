@@ -21,6 +21,7 @@
 		84FD22411F1E84F200BF0B6E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD22401F1E84F200BF0B6E /* Service.swift */; };
 		84FD22491F278D7C00BF0B6E /* Counselor_FormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD22481F278D7C00BF0B6E /* Counselor_FormVC.swift */; };
 		84FD224B1F278ED600BF0B6E /* Student_FormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD224A1F278ED600BF0B6E /* Student_FormVC.swift */; };
+		84FD224D1F27C11100BF0B6E /* Sweetalert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD224C1F27C11100BF0B6E /* Sweetalert.swift */; };
 		881CDBB5FAC01C7CF152678C /* Pods_PAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805AB4E2CD7ED548BEECB952 /* Pods_PAL.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		84FD22401F1E84F200BF0B6E /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		84FD22481F278D7C00BF0B6E /* Counselor_FormVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counselor_FormVC.swift; sourceTree = "<group>"; };
 		84FD224A1F278ED600BF0B6E /* Student_FormVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student_FormVC.swift; sourceTree = "<group>"; };
+		84FD224C1F27C11100BF0B6E /* Sweetalert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sweetalert.swift; sourceTree = "<group>"; };
 		93B91F3BD7F6538F1D037919 /* Pods-PALUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PALUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PALUITests/Pods-PALUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		963E14E126D715E84E3F054F /* Pods-PALTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PALTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PALTests/Pods-PALTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9A1816B2D33B1AAA60CD1AF9 /* Pods-PAL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PAL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PAL/Pods-PAL.debug.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				84FD22401F1E84F200BF0B6E /* Service.swift */,
+				84FD224C1F27C11100BF0B6E /* Sweetalert.swift */,
 			);
 			name = Service;
 			sourceTree = "<group>";
@@ -480,6 +483,7 @@
 				5CFAF99B1F05471D00E8E6FD /* LoginViewController.swift in Sources */,
 				84FD22491F278D7C00BF0B6E /* Counselor_FormVC.swift in Sources */,
 				5CFAF9981F05409E00E8E6FD /* SignupViewController.swift in Sources */,
+				84FD224D1F27C11100BF0B6E /* Sweetalert.swift in Sources */,
 				84FD22411F1E84F200BF0B6E /* Service.swift in Sources */,
 				2D0AF0D01F03F38400CF3ABC /* ViewController.swift in Sources */,
 				84FD224B1F278ED600BF0B6E /* Student_FormVC.swift in Sources */,
