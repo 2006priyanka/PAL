@@ -11,17 +11,22 @@ import UIKit
 class Student_FormVC: UIViewController {
     
     //MARK: Variables
-    var studentQuestions: [String] = ["The client is no longer a danger to self or others. ", "Thoughts and behaviours that were perviously considered as a danger to self or other are now manageable.", " The client has demostrated stable behaviours.","The client has verbalized a plan if he/she begins to feel unsafe.", " The client does not verbalized or glorify dangerous acts.", "The client is able to identify problems that led to begin referred for services." "The client understands how his/her behaviour may have contributed to the problem.", "The client expreses motivation to address the problem(s) and change behaviour.", "The client is able to identify potential issues and events that could contribute to regressing back to previous in his/her life.", " v is open to hearing feedback related to problem in his/her life.", "The client understands how his/her behaviour were dangerous.", "The client does not accept blame for problems considered out of his/her control(i.e. abuse)", "The client worked toward identifying personal stregths to encourage coping and decrease stress.", "The client worked toward identifying weaknesses that discourage coping and increase stress.", "The client has verbalized healthy behaviours that he/she needs to demonstrate.", "The client has demostrated ability toward healthy problems-solving and decision-making.", "The client was willing to explore alternatives that led to unhealthy/ dengerous behaviour.", "The client agres to attend follow-up services.", " The parent(s)/guardian(S) are willing to comply with follow-up recommendation.", "The client and family have identified adequate resources (financial, transportation, ect.) to follow recommendation.", "The client has access to support outside the immediate home environment.", "The parent(s)/guardian(S) have access to support outside the immediate home", "Appropiate services/resources were identified by the client.", "Parent(s)/guardian(S) believe the client can benefit from further counseling" ]
+    var studentQuestions: [String] = ["I am no longer a danger to my self or other.", "I can now manage thoughts and behaviours that were previously considered dangerous to my self or others.", "I am demostrating healthy behaviours.", "I have verbalized a plan if i begin to feel unsafe.", "I am not verbalizing or glorifying dangerous acts.", "I am able to identify problems that led to being referred for services.", "I understand understands how my behaviour may have contributed to problems.", "I am motivited to address my problem(S) and change my behaviour.", "I am able to identify potential issues and events that could contribute to going back to my previous high-risk behavior.", "I am open to hearing feedback related to problems in my life.", "I understand how my behaviours were dangerous.", "I do not accept blame for problems considered out of my control(i.e. abuse).", "I have identified personal strengths to encourage coping and decrease stress.", "I have identified weaknesses that discourage coping and increase stress.", "I am willing to increase my social support.", "I have identified healthy behaviours that i need to demonstrate.", "I can solve my problems and make decision in healthy way.", "I am willing to explore alternative that led to unhealthy dangerous behaviours.", "I agree to follow-up services.", "My parent(s)/guardian(S) are willing to comply with follow-up recommandations.", "My family and me have identified adequate resorces(financial, transportation.etc ) to follow recommendations.", "I have access to supportoutside the immediate home enviornment.", "My parent(s)/guardian(S) have access to support outside the immediate home environment.", "I have identified appropriate services/resources.", "My parent(s)/guardian(S) believe I can benefit from further counselin."]
+    var choices: [String] = ["Stongly Disagree", "Disagree", "Not Sure", "Agree", "Strongly Agree"]
+    
     @IBOutlet weak var questionsLabel: UILabel!
+    var count = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        questionsLabel.text = studentQuestions[0]
     }
     
     
     @IBAction func strongDisagreeButt(_ sender: UIButton) {
+        
     }
     
     @IBAction func disagreeButt(_ sender: UIButton) {
