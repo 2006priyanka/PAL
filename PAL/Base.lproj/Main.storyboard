@@ -172,10 +172,10 @@
             </objects>
             <point key="canvasLocation" x="1221.5999999999999" y="95.802098950524751"/>
         </scene>
-        <!--View Controller-->
+        <!--Student FormVC-->
         <scene sceneID="xf8-gX-cwf">
             <objects>
-                <viewController id="Qwy-AU-NI0" sceneMemberID="viewController">
+                <viewController id="Qwy-AU-NI0" customClass="Student_FormVC" customModule="PAL" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="O9W-aF-iFl"/>
                         <viewControllerLayoutGuide type="bottom" id="EPv-Dn-swU"/>
@@ -189,29 +189,44 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="strongly disagree"/>
+                                <connections>
+                                    <action selector="strongDisagreeButt:" destination="Qwy-AU-NI0" eventType="touchUpInside" id="rWy-3r-2bS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnr-9g-3qP">
                                 <rect key="frame" x="16" y="398" width="343" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="disagree"/>
+                                <connections>
+                                    <action selector="disagreeButt:" destination="Qwy-AU-NI0" eventType="touchUpInside" id="Qg2-8x-NHb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cm-9N-Pvs">
                                 <rect key="frame" x="16" y="454" width="343" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="not sure"/>
+                                <connections>
+                                    <action selector="notSureButt:" destination="Qwy-AU-NI0" eventType="touchUpInside" id="OYf-na-vXs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EDo-GB-DTb">
                                 <rect key="frame" x="16" y="508" width="343" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="agree"/>
+                                <connections>
+                                    <action selector="agreeButt:" destination="Qwy-AU-NI0" eventType="touchUpInside" id="sM7-ep-2Lb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ze8-eu-jgG">
                                 <rect key="frame" x="16" y="568" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="strongly agree"/>
+                                <connections>
+                                    <action selector="strongAgreeButt:" destination="Qwy-AU-NI0" eventType="touchUpInside" id="oZn-6g-gva"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsR-UX-kyv">
                                 <rect key="frame" x="16" y="115" width="343" height="157"/>
@@ -223,15 +238,18 @@
                         </subviews>
                         <color key="backgroundColor" red="0.6754930251373239" green="1" blue="0.11999778038302433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="questionsLabel" destination="dsR-UX-kyv" id="PIY-7J-3uw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nOh-Zh-3nC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1980" y="-628.33583208395805"/>
         </scene>
-        <!--View Controller-->
+        <!--Counselor FormVC-->
         <scene sceneID="zAS-4E-LF8">
             <objects>
-                <viewController id="HDZ-mn-YqU" sceneMemberID="viewController">
+                <viewController id="HDZ-mn-YqU" customClass="Counselor_FormVC" customModule="PAL" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sdV-hN-AiT"/>
                         <viewControllerLayoutGuide type="bottom" id="666-eo-cgx"/>
@@ -240,6 +258,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iIZ-Zu-VvP">
+                                <rect key="frame" x="16" y="321" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="strongly disagree"/>
+                                <connections>
+                                    <action selector="strongDisagree:" destination="HDZ-mn-YqU" eventType="touchUpInside" id="rUO-q8-gDg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NeV-jm-SZZ">
+                                <rect key="frame" x="16" y="368" width="343" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="disagree"/>
+                                <connections>
+                                    <action selector="disagreeButt:" destination="HDZ-mn-YqU" eventType="touchUpInside" id="xhN-gV-ALg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XhA-FW-9Qq">
+                                <rect key="frame" x="16" y="424" width="343" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="not sure"/>
+                                <connections>
+                                    <action selector="notSureButt:" destination="HDZ-mn-YqU" eventType="touchUpInside" id="cYe-Wf-aqb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5PR-Jw-7EE">
+                                <rect key="frame" x="16" y="478" width="343" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="agree"/>
+                                <connections>
+                                    <action selector="agreeButt:" destination="HDZ-mn-YqU" eventType="touchUpInside" id="hDe-o4-bXW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aar-ai-Rlj">
+                                <rect key="frame" x="16" y="538" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="strongly agree"/>
+                                <connections>
+                                    <action selector="strongAgreeButt:" destination="HDZ-mn-YqU" eventType="touchUpInside" id="ZYh-aQ-ooU"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NAP-LP-3vU">
                                 <rect key="frame" x="16" y="85" width="343" height="157"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -247,42 +309,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iIZ-Zu-VvP">
-                                <rect key="frame" x="16" y="321" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="strongly disagree"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NeV-jm-SZZ">
-                                <rect key="frame" x="16" y="368" width="343" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="disagree"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XhA-FW-9Qq">
-                                <rect key="frame" x="16" y="424" width="343" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="not sure"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5PR-Jw-7EE">
-                                <rect key="frame" x="16" y="478" width="343" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="agree"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aar-ai-Rlj">
-                                <rect key="frame" x="16" y="538" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="strongly agree"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93946834379545219" green="1" blue="0.48635193880371297" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="questionsLabel" destination="NAP-LP-3vU" id="CCc-df-W2D"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="igm-tZ-2ch" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1980" y="45"/>
+            <point key="canvasLocation" x="1953" y="55"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="zlc-hR-XNY">
