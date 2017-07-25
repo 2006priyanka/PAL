@@ -10,7 +10,7 @@ import UIKit
 
 class Student_FormVC: UIViewController {
     
-    
+    //MARK: Variables
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var strongDisagree: UILabel!
     @IBOutlet weak var disagree: UILabel!
