@@ -188,7 +188,7 @@
                                 <rect key="frame" x="16" y="351" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="strongly disagree"/>
+                                <state key="normal" title="Strongly Disagree"/>
                                 <connections>
                                     <action selector="strongDisagreeButt:" destination="Qwy-AU-NI0" eventType="touchUpInside" id="rWy-3r-2bS"/>
                                 </connections>
@@ -196,8 +196,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnr-9g-3qP">
                                 <rect key="frame" x="16" y="398" width="343" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="disagree"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Disagree"/>
                                 <connections>
                                     <action selector="disagreeButt:" destination="Qwy-AU-NI0" eventType="touchUpInside" id="Qg2-8x-NHb"/>
                                 </connections>
@@ -205,8 +205,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cm-9N-Pvs">
                                 <rect key="frame" x="16" y="454" width="343" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="not sure"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Not Sure"/>
                                 <connections>
                                     <action selector="notSureButt:" destination="Qwy-AU-NI0" eventType="touchUpInside" id="OYf-na-vXs"/>
                                 </connections>
@@ -214,8 +214,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EDo-GB-DTb">
                                 <rect key="frame" x="16" y="508" width="343" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="agree"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Agree"/>
                                 <connections>
                                     <action selector="agreeButt:" destination="Qwy-AU-NI0" eventType="touchUpInside" id="sM7-ep-2Lb"/>
                                 </connections>
@@ -223,7 +223,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ze8-eu-jgG">
                                 <rect key="frame" x="16" y="568" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="strongly agree"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Strongly Agree"/>
                                 <connections>
                                     <action selector="strongAgreeButt:" destination="Qwy-AU-NI0" eventType="touchUpInside" id="oZn-6g-gva"/>
                                 </connections>
@@ -262,7 +263,7 @@
                                 <rect key="frame" x="16" y="321" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="strongly disagree"/>
+                                <state key="normal" title="Strongly Disagree"/>
                                 <connections>
                                     <action selector="strongDisagree:" destination="HDZ-mn-YqU" eventType="touchUpInside" id="rUO-q8-gDg"/>
                                 </connections>
@@ -270,8 +271,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NeV-jm-SZZ">
                                 <rect key="frame" x="16" y="368" width="343" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="disagree"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Disagree"/>
                                 <connections>
                                     <action selector="disagreeButt:" destination="HDZ-mn-YqU" eventType="touchUpInside" id="xhN-gV-ALg"/>
                                 </connections>
@@ -279,8 +280,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XhA-FW-9Qq">
                                 <rect key="frame" x="16" y="424" width="343" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="not sure"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Not Sure"/>
                                 <connections>
                                     <action selector="notSureButt:" destination="HDZ-mn-YqU" eventType="touchUpInside" id="cYe-Wf-aqb"/>
                                 </connections>
@@ -288,8 +289,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5PR-Jw-7EE">
                                 <rect key="frame" x="16" y="478" width="343" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="agree"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Agree"/>
                                 <connections>
                                     <action selector="agreeButt:" destination="HDZ-mn-YqU" eventType="touchUpInside" id="hDe-o4-bXW"/>
                                 </connections>
@@ -297,7 +298,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aar-ai-Rlj">
                                 <rect key="frame" x="16" y="538" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="strongly agree"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Strongly Agree"/>
                                 <connections>
                                     <action selector="strongAgreeButt:" destination="HDZ-mn-YqU" eventType="touchUpInside" id="ZYh-aQ-ooU"/>
                                 </connections>

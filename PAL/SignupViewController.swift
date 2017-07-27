@@ -59,14 +59,6 @@ class SignupViewController: UIViewController, UITextFieldDelegate{
             
             Service().signup(params: user, callback: { (result) in
                 print(result)
-                
-                
-                
-                
-                //SweetAlert().showAlert("This is the title", subTitle: "sasdas", style: .warning)
-                
-                
-                
             })
         }
     }
