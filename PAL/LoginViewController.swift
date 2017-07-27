@@ -45,9 +45,9 @@ class LoginViewController: UIViewController, UITextFieldDelegate{
            Service().login(email: idInput.text!, password: passInput.text!, callback: {(result) in
                 
                 if result["status"].intValue == 1 {
-                    print("We found your user")
+                    SweetAlert().showAlert("Success", subTitle: "You are now logged in", style: .success )
                 } else {
-                    print("Username and/or password was wrong.")
+                    SweetAlert().showAlert("Error", subTitle: "Username and/or password not found", style: .error)
                 }
             }
             )
