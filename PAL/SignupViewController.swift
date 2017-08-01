@@ -59,6 +59,7 @@ class SignupViewController: UIViewController, UITextFieldDelegate{
             
             Service().signup(params: user, callback: { (result) in
                 print(result)
+            
             })
         }
     }
@@ -71,6 +72,11 @@ class SignupViewController: UIViewController, UITextFieldDelegate{
             
             Service().signup(params: user, callback: { (result) in
                 print(result)
+                
+                
+                self.performSegue(withIdentifier: "signupTocForm", sender: nil)
+                
+                
             })
         }
     }

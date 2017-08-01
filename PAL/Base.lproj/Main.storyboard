@@ -141,7 +141,6 @@
                                 <state key="normal" title="Counselor"/>
                                 <connections>
                                     <action selector="counselorButt:" destination="hxQ-qq-EXc" eventType="touchUpInside" id="lc6-e3-FxM"/>
-                                    <segue destination="HDZ-mn-YqU" kind="show" id="NL7-GE-l1N"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Py-K9-v1W">
@@ -166,11 +165,12 @@
                         <outlet property="nameLabel" destination="fgm-By-fFK" id="f5b-nU-R4g"/>
                         <outlet property="passInput" destination="oFQ-Ik-gFd" id="dUI-3d-LFs"/>
                         <outlet property="passLabel" destination="JeL-NJ-s3T" id="IEp-V0-u8K"/>
+                        <segue destination="HDZ-mn-YqU" kind="show" identifier="signupTocForm" id="6HA-ms-dB2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8f4-ym-3pe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1221.5999999999999" y="95.802098950524751"/>
+            <point key="canvasLocation" x="1222" y="96"/>
         </scene>
         <!--Student FormVC-->
         <scene sceneID="xf8-gX-cwf">
