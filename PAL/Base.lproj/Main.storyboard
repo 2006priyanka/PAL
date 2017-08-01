@@ -150,7 +150,6 @@
                                 <state key="normal" title="Student"/>
                                 <connections>
                                     <action selector="studentButt:" destination="hxQ-qq-EXc" eventType="touchUpInside" id="dCV-HU-j1i"/>
-                                    <segue destination="Qwy-AU-NI0" kind="show" id="iJU-j3-HvE"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -166,11 +165,12 @@
                         <outlet property="passInput" destination="oFQ-Ik-gFd" id="dUI-3d-LFs"/>
                         <outlet property="passLabel" destination="JeL-NJ-s3T" id="IEp-V0-u8K"/>
                         <segue destination="HDZ-mn-YqU" kind="show" identifier="signupTocForm" id="6HA-ms-dB2"/>
+                        <segue destination="Qwy-AU-NI0" kind="show" identifier="signupTosForm" id="uMP-rx-vDp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8f4-ym-3pe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1222" y="96"/>
+            <point key="canvasLocation" x="1239" y="96"/>
         </scene>
         <!--Student FormVC-->
         <scene sceneID="xf8-gX-cwf">
